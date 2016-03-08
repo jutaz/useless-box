@@ -1,0 +1,18 @@
+{
+  "name": "useless-box",
+  "version": "1.0.0",
+  "description": "The useless npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm remove -g useless-box && npm remove useless-box"
+  },
+  "keywords": [
+    "useless",
+    "fun",
+    "npm",
+    "unicorn"
+  ],
+  "author": "Justas \"jutaz\" Brazauskas",
+  "license": "ISC"
+}
